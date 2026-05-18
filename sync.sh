@@ -6,5 +6,5 @@ fi
 MESSAGE=${1:-$INPUT}
 echo $1
 git commit -m "$MESSAGE"
-# git push
-# nixos-rebuild switch
+git push
+nixos-rebuild switch
