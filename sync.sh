@@ -5,6 +5,6 @@ if [ $# -eq 0 ]; then
 fi
 MESSAGE=${1:-$INPUT}
 echo $1
-echo git commit -m \"$MESSAGE\"
+git commit -m "$MESSAGE"
 # git push
 # nixos-rebuild switch
