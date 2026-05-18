@@ -2,6 +2,6 @@
 { lib, config, pkgs, ... }:
 {
  config = {
-      programs.vscodium.enable = true;
+     environment.systemPackages = with pkgs; [ vscodium ];
  };
 }

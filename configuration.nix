@@ -15,7 +15,7 @@
       ./system/nvidia.nix
       ./software/docker.nix
       ./software/git.nix
-      # ./software/vscodium
+      ./software/vscodium.nix
     ];
 
   # Bootloader.
