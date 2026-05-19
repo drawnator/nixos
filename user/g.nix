@@ -12,6 +12,7 @@
      #thunderbird
      unzip
     #  vscodium
+    openvpn
    ];
   };
  };
