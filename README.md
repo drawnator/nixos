@@ -1,24 +1,22 @@
 ```text
-.
-├── configuration.nix
-├── flake.lock
-├── flake.nix
-├── hardware-configuration.nix
 ├── README.md
-├── software
-│   ├── docker.nix
-│   ├── git.nix
-│   └── vscodium.nix
-├── sync.sh
-├── system
-│   ├── hard_drive.nix
-│   ├── localization.nix
+├── sync.sh*
+├── configuration.nix
+├── system/
 │   ├── network.nix
+│   ├── hard_drive.nix
 │   ├── nvidia.nix
 │   ├── sound.nix
+│   ├── localization.nix
 │   └── xfce.nix
+├── software/
+│   ├── vscodium.nix
+│   ├── docker.nix
+│   └── git.nix
+├── user/
+│   └── g.nix
 ├── _template.nix
-└── user
-    └── g.nix
-
-4 directories, 17 files
+├── flake.nix
+├── flake.lock
+└── hardware-configuration.nix
+```

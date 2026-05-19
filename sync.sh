@@ -1,8 +1,11 @@
 set -e
-git pull
 sudo nixos-rebuild switch
 echo \`\`\`text > README.md
-tree >> README.md
+# tree -n -tr -h --du --noreport --gitignore  >> README.md
+# tree -n -tr -D --timefmt %F -F --noreport --gitignore  >> README.md
+tree -n -tr -F --noreport --gitignore | tail -n +2 >> README.md
+echo \`\`\` >>  README.md
+git pull
 git add .
 if [ $# -eq 0 ]; then
     read -p "Please enter the commit message: " INPUT
