@@ -13,6 +13,7 @@
       Preferences = {
         "intl.spellcheck.dicts" = "pt-BR";
       };
+      #https://discourse.nixos.org/t/declare-firefox-extensions-and-settings/36265
       DisableTelemetry = true;
       DisableFirefoxStudies = true;
       EnableTrackingProtection = {
@@ -31,7 +32,7 @@
       DisplayBookmarksToolbar = "never"; # alternatives: "always" or "newtab"
       DisplayMenuBar = "default-off"; # alternatives: "always", "never" or "default-on"
       SearchBar = "unified"; # alternative: "separate"
-      homepage.StartPage = "previous-session";
+      Homepage.StartPage = "previous-session";
     };
   };
  };
