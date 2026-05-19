@@ -1,16 +1,16 @@
 ```text
 ├── README.md
+├── sync.sh*
 ├── configuration.nix
 ├── system/
-│   ├── default.nix
 │   ├── bluetooth.nix
+│   ├── default.nix
 │   ├── network.nix
 │   ├── hard_drive.nix
 │   ├── nvidia.nix
 │   ├── sound.nix
 │   ├── localization.nix
 │   └── xfce.nix
-├── sync.sh*
 ├── software/
 │   ├── firefox.nix
 │   ├── vscodium.nix

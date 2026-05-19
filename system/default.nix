@@ -2,7 +2,7 @@
 
 {
   imports = [
-    # ./bluetooth.nix
+    ./bluetooth.nix
     ./localization.nix
     ./network.nix
     ./nvidia.nix

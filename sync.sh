@@ -9,11 +9,14 @@ git pull
 git add .
 if [ $# -eq 0 ]; then
     read -p "Please enter the commit message: " INPUT
-fi
-if [ -z "$INPUT"]; then
-    git commit
+    if [ -z "$INPUT" ]; then
+        git commit
+    else
+        git commit -m "$INPUT"
+    fi
+elif [ -n "$1" ]; then
+    git commit -m "$1"
 else
-    MESSAGE=${1:-$INPUT}
-    git commit -m "$MESSAGE"
-fi 
+    git commit
+fi
 git push
