@@ -1,19 +1,21 @@
 ```text
 ├── README.md
 ├── configuration.nix
-├── software/
-│   ├── firefox.nix
-│   ├── vscodium.nix
-│   ├── docker.nix
-│   └── git.nix
-├── sync.sh*
 ├── system/
+│   ├── default.nix
+│   ├── bluetooth.nix
 │   ├── network.nix
 │   ├── hard_drive.nix
 │   ├── nvidia.nix
 │   ├── sound.nix
 │   ├── localization.nix
 │   └── xfce.nix
+├── sync.sh*
+├── software/
+│   ├── firefox.nix
+│   ├── vscodium.nix
+│   ├── docker.nix
+│   └── git.nix
 ├── user/
 │   └── g.nix
 ├── _template.nix

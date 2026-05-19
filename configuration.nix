@@ -9,14 +9,10 @@
     [
       ./hardware-configuration.nix
       ./user/g.nix
-      ./system/xfce.nix
-      ./system/localization.nix
-      ./system/sound.nix
-      ./system/network.nix
-      ./system/nvidia.nix
-      ./software/docker.nix
+      ./system
       ./software/git.nix
       ./software/firefox.nix
+      ./software/docker.nix
     ];
 
   # Bootloader.
@@ -26,7 +22,6 @@
   
   # Enable CUPS to print documents.
   services.printing.enable = true;
-
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
