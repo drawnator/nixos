@@ -1,6 +1,7 @@
 set -e
 git pull
 sudo nixos-rebuild switch
+tree >> README.md
 git add .
 if [ $# -eq 0 ]; then
     read -p "Please enter the commit message: " INPUT
@@ -12,4 +13,3 @@ else
     git commit -m "$MESSAGE"
 fi 
 git push
-tree >> README.md
