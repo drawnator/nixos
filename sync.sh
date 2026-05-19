@@ -12,3 +12,4 @@ else
     git commit -m "$MESSAGE"
 fi 
 git push
+tree >> README.md
