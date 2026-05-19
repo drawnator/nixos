@@ -13,6 +13,7 @@
 ├── system
 │   ├── hard_drive.nix
 │   ├── localization.nix
+│   ├── network.nix
 │   ├── nvidia.nix
 │   ├── sound.nix
 │   └── xfce.nix
@@ -20,4 +21,4 @@
 └── user
     └── g.nix
 
-4 directories, 16 files
+4 directories, 17 files
