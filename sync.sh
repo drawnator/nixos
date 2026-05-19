@@ -1,4 +1,6 @@
+set -e
 git pull
+sudo nixos-rebuild switch
 git add .
 if [ $# -eq 0 ]; then
     read -p "Please enter the commit message: " INPUT
@@ -10,4 +12,3 @@ else
     git commit -m "$MESSAGE"
 fi 
 git push
-sudo nixos-rebuild switch

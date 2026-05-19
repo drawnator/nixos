@@ -6,7 +6,7 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
       ./hardware-configuration.nix
       ./user/g.nix
       ./system/xfce.nix
@@ -15,7 +15,6 @@
       ./system/nvidia.nix
       ./software/docker.nix
       ./software/git.nix
-      ./software/vscodium.nix
     ];
 
   # Bootloader.
