@@ -1,7 +1,12 @@
 ```text
 ├── README.md
-├── sync.sh*
 ├── configuration.nix
+├── software/
+│   ├── firefox.nix
+│   ├── vscodium.nix
+│   ├── docker.nix
+│   └── git.nix
+├── sync.sh*
 ├── system/
 │   ├── network.nix
 │   ├── hard_drive.nix
@@ -9,10 +14,6 @@
 │   ├── sound.nix
 │   ├── localization.nix
 │   └── xfce.nix
-├── software/
-│   ├── vscodium.nix
-│   ├── docker.nix
-│   └── git.nix
 ├── user/
 │   └── g.nix
 ├── _template.nix
