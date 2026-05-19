@@ -1,6 +1,7 @@
 set -e
 git pull
 sudo nixos-rebuild switch
+echo \`\`\`text > README.md
 tree >> README.md
 git add .
 if [ $# -eq 0 ]; then
