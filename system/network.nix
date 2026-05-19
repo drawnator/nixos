@@ -12,6 +12,10 @@
   # Enable networking
   networking.networkmanager.enable = true;
   networking.useDHCP = false;
+  environment.systemPackages = with pkgs; [
+    openvpn
+    networkmanager-openvpn
+  ];
  };
 }
 
