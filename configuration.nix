@@ -10,9 +10,7 @@
       ./hardware-configuration.nix
       ./user/g.nix
       ./system
-      ./software/git.nix
-      ./software/firefox.nix
-      ./software/docker.nix
+      ./software
     ];
 
   # Bootloader.

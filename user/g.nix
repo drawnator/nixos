@@ -1,10 +1,6 @@
 # _xfce.nix
 { lib, config, pkgs, ... }:
 {
- imports =
- [
- ../software/vscodium.nix
- ];
  config = {
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.groups.g = {}; 

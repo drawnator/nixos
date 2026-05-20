@@ -7,6 +7,6 @@
     ./network.nix
     ./nvidia.nix
     ./sound.nix
-    ./xfce.nix
+    ./xfce
   ];
 }
