@@ -11,6 +11,7 @@
       ./user/g.nix
       ./system
       ./software
+      # ./home-manager.nix
     ];
 
   # Bootloader.
@@ -27,7 +28,7 @@
   nixpkgs.config.allowUnfree = true;
   
   # Adds Experimental flakes
-  nix.settings.experimental-features = ["nix-command" "flakes"];
+  # nix.settings.experimental-features = ["nix-command" "flakes"];
   
   # List packages installed in system profile. To search, run:
   # $ nix search wget

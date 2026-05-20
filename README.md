@@ -1,8 +1,11 @@
 ```text
 ├── README.md
+├── configuration.nix
+├── home-manager.nix
+├── flake.lock
 ├── software/
-│   ├── default.nix
 │   ├── firefox.nix
+│   ├── default.nix
 │   ├── vscodium.nix
 │   ├── docker.nix
 │   └── git.nix
@@ -17,12 +20,10 @@
 │   ├── nvidia.nix
 │   ├── sound.nix
 │   └── localization.nix
-├── configuration.nix
 ├── sync.sh*
 ├── user/
 │   └── g.nix
 ├── _template.nix
 ├── flake.nix
-├── flake.lock
 └── hardware-configuration.nix
 ```
