@@ -29,7 +29,9 @@
   
   # Adds Experimental flakes
   # nix.settings.experimental-features = ["nix-command" "flakes"];
-  
+  # nix.nixPath = [ "nixpkgs=/etc/nix/path/nixpkgs" ];
+  # environment.etc."nix/path/nixpkgs".source = inputs.nixpkgs;
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [

@@ -2,7 +2,6 @@
 ├── README.md
 ├── configuration.nix
 ├── home-manager.nix
-├── flake.lock
 ├── software/
 │   ├── default.nix
 │   ├── firefox.nix
@@ -24,6 +23,5 @@
 ├── user/
 │   └── g.nix
 ├── _template.nix
-├── flake.nix
 └── hardware-configuration.nix
 ```
