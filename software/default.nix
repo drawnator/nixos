@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./docker.nix
+    # ./docker.nix
     ./firefox.nix
     ./git.nix
     ./vscodium.nix

@@ -4,8 +4,8 @@
 ├── home-manager.nix
 ├── flake.lock
 ├── software/
-│   ├── firefox.nix
 │   ├── default.nix
+│   ├── firefox.nix
 │   ├── vscodium.nix
 │   ├── docker.nix
 │   └── git.nix
