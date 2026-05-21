@@ -9,12 +9,12 @@
 │   ├── docker.nix
 │   └── git.nix
 ├── system/
+│   ├── network.nix
 │   ├── default.nix
 │   ├── xfce/
 │   │   ├── default.nix
 │   │   └── xfce.nix
 │   ├── bluetooth.nix
-│   ├── network.nix
 │   ├── hard_drive.nix
 │   ├── nvidia.nix
 │   ├── sound.nix

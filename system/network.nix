@@ -19,6 +19,7 @@
   networking.useDHCP = false;
   environment.systemPackages = with pkgs; [
     openvpn
+    gnome-network-displays
   ];
  };
 }
