@@ -1,14 +1,7 @@
 ```text
 ├── README.md
-├── configuration.nix
-├── home-manager.nix
-├── software/
-│   ├── default.nix
-│   ├── firefox.nix
-│   ├── vscodium.nix
-│   ├── docker.nix
-│   └── git.nix
 ├── system/
+│   ├── direnv.nix
 │   ├── network.nix
 │   ├── default.nix
 │   ├── xfce/
@@ -20,6 +13,14 @@
 │   ├── sound.nix
 │   └── localization.nix
 ├── sync.sh*
+├── configuration.nix
+├── home-manager.nix
+├── software/
+│   ├── default.nix
+│   ├── firefox.nix
+│   ├── vscodium.nix
+│   ├── docker.nix
+│   └── git.nix
 ├── user/
 │   └── g.nix
 ├── _template.nix

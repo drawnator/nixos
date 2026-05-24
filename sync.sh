@@ -1,3 +1,4 @@
+cd "$(dirname "$0")"
 set -e
 sudo nixos-rebuild switch
 echo \`\`\`text > README.md
