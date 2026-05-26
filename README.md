@@ -1,8 +1,8 @@
 ```text
 ├── README.md
 ├── system/
-│   ├── default.nix
 │   ├── direnv.nix
+│   ├── default.nix
 │   ├── network.nix
 │   ├── xfce/
 │   │   ├── default.nix

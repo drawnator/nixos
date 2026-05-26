@@ -3,6 +3,7 @@
 {
  config = {
   programs.direnv.enable = true;
+  #use "direnv allow ."
  };
 }
 
