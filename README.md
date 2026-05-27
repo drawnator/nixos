@@ -1,19 +1,23 @@
 ```text
 ├── README.md
 ├── system/
-│   ├── direnv.nix
 │   ├── default.nix
-│   ├── network.nix
-│   ├── xfce/
+│   ├── boot/
+│   │   ├── grub.nix
+│   │   ├── systemd.nix
+│   │   └── default.nix
+│   ├── desktop/
 │   │   ├── default.nix
 │   │   └── xfce.nix
+│   ├── direnv.nix
+│   ├── network.nix
 │   ├── bluetooth.nix
 │   ├── hard_drive.nix
 │   ├── nvidia.nix
 │   ├── sound.nix
 │   └── localization.nix
-├── sync.sh*
 ├── configuration.nix
+├── sync.sh*
 ├── home-manager.nix
 ├── software/
 │   ├── default.nix
