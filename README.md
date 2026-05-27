@@ -3,15 +3,15 @@
 ├── configuration.nix
 ├── _template.nix
 ├── system/
+│   ├── default.nix
+│   ├── hard_drive.nix
 │   ├── sound.nix
 │   ├── nvidia.nix
 │   ├── network.nix
 │   ├── localization.nix
-│   ├── hard_drive.nix
 │   ├── direnv.nix
 │   ├── bluetooth.nix
 │   ├── systemd.nix
-│   ├── default.nix
 │   ├── boot/
 │   │   ├── systemd-boot.nix
 │   │   ├── grub.nix

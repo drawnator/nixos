@@ -1,4 +1,4 @@
-# lists disks and partitions
+# hard-drive utils lists disks and partitions
 { lib, config, pkgs, ... }:
 {
  config = {
