@@ -13,11 +13,6 @@
       ./software
       # ./home-manager.nix
     ];
-
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
   
   # Enable CUPS to print documents.
   services.printing.enable = true;
