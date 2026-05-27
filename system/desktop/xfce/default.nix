@@ -1,11 +1,9 @@
 # template.nix
 { lib, config, pkgs, ... }:
 {
- imports = [
-  
+  imports = [
+  ./xfce.nix
+  ./dracula.nix
  ];
- config = {
-  
- };
 }
 

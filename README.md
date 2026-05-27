@@ -1,8 +1,15 @@
 ```text
 ├── README.md
-├── configuration.nix
 ├── _template.nix
+├── configuration.nix
 ├── system/
+│   ├── desktop/
+│   │   ├── default.nix
+│   │   └── xfce/
+│   │       ├── dracula.nix
+│   │       ├── default.nix
+│   │       ├── xfce.nix
+│   │       └── adwaita.nix
 │   ├── default.nix
 │   ├── hard_drive.nix
 │   ├── sound.nix
@@ -12,12 +19,9 @@
 │   ├── direnv.nix
 │   ├── bluetooth.nix
 │   ├── systemd.nix
-│   ├── boot/
-│   │   ├── systemd-boot.nix
-│   │   ├── grub.nix
-│   │   └── default.nix
-│   └── desktop/
-│       ├── xfce.nix
+│   └── boot/
+│       ├── systemd-boot.nix
+│       ├── grub.nix
 │       └── default.nix
 ├── home-manager.nix
 ├── sync.sh*
