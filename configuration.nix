@@ -11,7 +11,7 @@
       ./user/g.nix
       ./system
       ./software
-      # ./home-manager.nix
+      ./home-manager.nix
     ];
   
   # Enable CUPS to print documents.

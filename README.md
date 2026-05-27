@@ -1,5 +1,7 @@
 ```text
 ├── README.md
+├── home-manager.nix
+├── configuration.nix
 ├── system/
 │   ├── default.nix
 │   ├── boot/
@@ -16,9 +18,7 @@
 │   ├── nvidia.nix
 │   ├── sound.nix
 │   └── localization.nix
-├── configuration.nix
 ├── sync.sh*
-├── home-manager.nix
 ├── software/
 │   ├── default.nix
 │   ├── firefox.nix
