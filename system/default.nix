@@ -8,6 +8,8 @@
     ./network.nix
     # ./nvidia.nix #running graphics on gpu is making notebook extremly hot
     ./sound.nix
-    ./xfce
+    ./boot.nix
+    ./desktop
+    ./boot
   ];
 }
