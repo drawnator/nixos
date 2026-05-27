@@ -1,4 +1,4 @@
-# _xfce.nix
+# lists disks and partitions
 { lib, config, pkgs, ... }:
 {
  config = {

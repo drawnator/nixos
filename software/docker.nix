@@ -1,4 +1,4 @@
-# _docker.nix
+# https://wiki.nixos.org/wiki/Docker
 { lib, config, pkgs, ... }:
 {
  config = {

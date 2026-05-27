@@ -1,4 +1,4 @@
-# _xfce.nix
+# everyone has localization, it came free with your configuration.nix
 { lib, config, pkgs, ... }:
 {
  config = {

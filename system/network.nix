@@ -1,4 +1,4 @@
-# _xfce.nix
+# https://discourse.nixos.org/t/how-can-i-use-miracast-in-nixos/29405
 { lib, config, pkgs, ... }:
 {
  config = {

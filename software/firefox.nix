@@ -1,4 +1,4 @@
-# _xfce.nix
+# https://discourse.nixos.org/t/declare-firefox-extensions-and-settings/36265
 { lib, config, pkgs, ... }:
 {
  config = {
@@ -13,7 +13,6 @@
       Preferences = {
         "intl.spellcheck.dicts" = "pt-BR";
       };
-      #https://discourse.nixos.org/t/declare-firefox-extensions-and-settings/36265
       DisableTelemetry = true;
       DisableFirefoxStudies = true;
       EnableTrackingProtection = {

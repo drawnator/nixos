@@ -1,4 +1,4 @@
-# _xfce.nix
+# https://nixos.wiki/wiki/Git
 { lib, config, pkgs, ... }:
 {
  config = {

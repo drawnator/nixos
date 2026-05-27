@@ -1,4 +1,4 @@
-# _xfce.nix
+# if you like something other than the sound of the fan
 { lib, config, pkgs, ... }:
 {
  config = {

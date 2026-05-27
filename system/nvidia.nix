@@ -1,4 +1,5 @@
-# _xfce.nix
+# my nvidia card is cooked, pc overheating and shutting down at the slightest hint of a graphic
+# https://nixos.wiki/wiki/Nvidia
 { lib, config, pkgs, ... }:
 {
  config = {

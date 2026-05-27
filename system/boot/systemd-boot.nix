@@ -1,4 +1,4 @@
-# systemd boot
+# systemd boot came with the default configuration.nix
 { lib, config, pkgs, ... }:
 {
  config = {

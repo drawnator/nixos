@@ -1,4 +1,4 @@
-# _xfce.nix
+# https://wiki.nixos.org/wiki/Direnv
 { lib, config, pkgs, ... }:
 {
  config = {

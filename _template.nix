@@ -1,4 +1,4 @@
-# _xfce.nix
+# template.nix
 { lib, config, pkgs, ... }:
 {
  config = {

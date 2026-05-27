@@ -1,4 +1,4 @@
-# _xfce.nix
+# https://wiki.nixos.org/wiki/Bluetooth
 { lib, config, pkgs, ... }:
 {
  config = {
