@@ -3,6 +3,7 @@
 {
   imports = [
     ./bluetooth.nix
+    ./copyparty.nix
     ./hard_drive.nix
     ./localization.nix
     ./direnv.nix

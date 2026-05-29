@@ -1,8 +1,11 @@
 ```text
 ├── README.md
-├── _template.nix
-├── configuration.nix
+├── user/
+│   └── g.nix
 ├── system/
+│   ├── copyparty.nix
+│   ├── default.nix
+│   ├── network.nix
 │   ├── desktop/
 │   │   ├── default.nix
 │   │   └── xfce/
@@ -10,11 +13,9 @@
 │   │       ├── adwaita.nix
 │   │       ├── default.nix
 │   │       └── xfce.nix
-│   ├── default.nix
 │   ├── hard_drive.nix
 │   ├── sound.nix
 │   ├── nvidia.nix
-│   ├── network.nix
 │   ├── localization.nix
 │   ├── direnv.nix
 │   ├── bluetooth.nix
@@ -23,6 +24,8 @@
 │       ├── systemd-boot.nix
 │       ├── grub.nix
 │       └── default.nix
+├── _template.nix
+├── configuration.nix
 ├── home-manager.nix
 ├── sync.sh*
 ├── software/
@@ -31,7 +34,5 @@
 │   ├── firefox.nix
 │   ├── docker.nix
 │   └── default.nix
-├── user/
-│   └── g.nix
 └── hardware-configuration.nix
 ```
