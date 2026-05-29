@@ -4,15 +4,21 @@
  config = {
   ## home manager configs
   home-manager.users.g = { pkgs, ... }: {
+
     xfconf.settings = {
       xsettings = {
-        "Net/ThemeName" = "Adwaita-dark"; # GTK Theme
-        "Net/IconThemeName" = "Papirus-Dark"; # Icon Theme
+        "Net/ThemeName" = "Adwaita"; # GTK Theme
+        "Net/IconThemeName" = "Papirus"; # Icon Theme
         "Gtk/FontName" = "Ubuntu 11"; # System Font
         "Gtk/CursorThemeName" = "Adwaita"; # Cursor
       };
       xfwm4 = {
-        "general/theme" = "Adwaita-dark"; # Window Manager Border
+        "general/theme" = "Adwaita"; # Window Manager Border
+      };
+    };
+    programs.vscode.profiles.default = {
+      userSettings = {
+        "workbench.colorTheme" = "Light+";
       };
     };
   };

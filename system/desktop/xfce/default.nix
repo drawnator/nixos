@@ -4,6 +4,7 @@
   imports = [
   ./xfce.nix
   ./dracula.nix
+  # ./adwaita.nix
  ];
 }
 

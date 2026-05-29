@@ -26,6 +26,24 @@
         gtk-theme = "Dracula";
       };
     };
+    xdg.portal = {
+      enable = true;
+      # Use GTK portal as default to pull the dconf/gsettings color-scheme
+      config.common.default = "*";
+      extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+    };
+    #  programs.vscodium = {
+    #   enable = true;
+    #   profiles.default = {
+    #   extensions = with pkgs.vscode-extensions; [
+    #     # Example: Dracula Theme
+    #     dracula-theme.theme-dracula 
+    #   ];
+    #   userSettings = {
+    #     "workbench.colorTheme" = "Dracula";
+    #   };
+    #  };
+    # };
  };
 }
 

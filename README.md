@@ -7,9 +7,9 @@
 │   │   ├── default.nix
 │   │   └── xfce/
 │   │       ├── dracula.nix
+│   │       ├── adwaita.nix
 │   │       ├── default.nix
-│   │       ├── xfce.nix
-│   │       └── adwaita.nix
+│   │       └── xfce.nix
 │   ├── default.nix
 │   ├── hard_drive.nix
 │   ├── sound.nix
