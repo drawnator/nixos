@@ -1,14 +1,14 @@
 ```text
 ├── README.md
+├── _template.nix
 ├── software/
+│   ├── default.nix
 │   ├── filelight.nix
 │   ├── vscodium.nix
 │   ├── git.nix
 │   ├── firefox.nix
-│   ├── docker.nix
-│   └── default.nix
+│   └── docker.nix
 ├── sync.sh*
-├── _template.nix
 ├── user/
 │   └── g.nix
 ├── system/
