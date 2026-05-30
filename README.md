@@ -1,5 +1,6 @@
 ```text
 ├── README.md
+├── _template.nix
 ├── user/
 │   └── g.nix
 ├── system/
@@ -24,7 +25,6 @@
 │       ├── systemd-boot.nix
 │       ├── grub.nix
 │       └── default.nix
-├── _template.nix
 ├── configuration.nix
 ├── home-manager.nix
 ├── sync.sh*
