@@ -1,5 +1,13 @@
 ```text
 ├── README.md
+├── software/
+│   ├── filelight.nix
+│   ├── vscodium.nix
+│   ├── git.nix
+│   ├── firefox.nix
+│   ├── docker.nix
+│   └── default.nix
+├── sync.sh*
 ├── _template.nix
 ├── user/
 │   └── g.nix
@@ -27,12 +35,5 @@
 │       └── default.nix
 ├── configuration.nix
 ├── home-manager.nix
-├── sync.sh*
-├── software/
-│   ├── vscodium.nix
-│   ├── git.nix
-│   ├── firefox.nix
-│   ├── docker.nix
-│   └── default.nix
 └── hardware-configuration.nix
 ```

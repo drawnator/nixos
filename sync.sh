@@ -1,6 +1,7 @@
 cd "$(dirname "$0")"
 set -e
-sudo nixos-rebuild switch
+sudo nix-channel --update
+sudo nixos-rebuild switch --upgrade
 echo \`\`\`text > README.md
 # tree -n -tr -h --du --noreport --gitignore  >> README.md
 # tree -n -tr -D --timefmt %F -F --noreport --gitignore  >> README.md
