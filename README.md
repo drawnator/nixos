@@ -2,8 +2,8 @@
 ├── README.md
 ├── _template.nix
 ├── software/
-│   ├── default.nix
 │   ├── filelight.nix
+│   ├── default.nix
 │   ├── vscodium.nix
 │   ├── git.nix
 │   ├── firefox.nix
