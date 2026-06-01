@@ -18,6 +18,7 @@ in
       p = 3923; 
       ftp = 3921;
       z = true;
+      freebind = true;
       chmod-f = 755;
       wr-h-aon = "/dev/shm/accessible-on.txt";
     };
