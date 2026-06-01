@@ -1,19 +1,9 @@
 ```text
 ├── README.md
-├── sync.sh*
-├── _template.nix
-├── software/
-│   ├── firefox.nix
-│   ├── filelight.nix
-│   ├── default.nix
-│   ├── vscodium.nix
-│   ├── git.nix
-│   └── docker.nix
-├── user/
-│   └── g.nix
 ├── system/
-│   ├── copyparty.nix
 │   ├── default.nix
+│   ├── cloudflared.nix
+│   ├── copyparty.nix
 │   ├── network.nix
 │   ├── desktop/
 │   │   ├── default.nix
@@ -33,6 +23,17 @@
 │       ├── default.nix
 │       ├── systemd-boot.nix
 │       └── grub.nix
+├── sync.sh*
+├── _template.nix
+├── software/
+│   ├── firefox.nix
+│   ├── filelight.nix
+│   ├── default.nix
+│   ├── vscodium.nix
+│   ├── git.nix
+│   └── docker.nix
+├── user/
+│   └── g.nix
 ├── configuration.nix
 ├── home-manager.nix
 └── hardware-configuration.nix

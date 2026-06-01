@@ -4,6 +4,7 @@
   imports = [
     ./bluetooth.nix
     ./copyparty.nix
+    ./cloudflared.nix
     ./hard_drive.nix
     ./localization.nix
     ./direnv.nix
