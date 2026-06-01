@@ -2,11 +2,11 @@
 ├── README.md
 ├── _template.nix
 ├── software/
+│   ├── firefox.nix
 │   ├── filelight.nix
 │   ├── default.nix
 │   ├── vscodium.nix
 │   ├── git.nix
-│   ├── firefox.nix
 │   └── docker.nix
 ├── sync.sh*
 ├── user/
@@ -30,9 +30,9 @@
 │   ├── bluetooth.nix
 │   ├── systemd.nix
 │   └── boot/
+│       ├── default.nix
 │       ├── systemd-boot.nix
-│       ├── grub.nix
-│       └── default.nix
+│       └── grub.nix
 ├── configuration.nix
 ├── home-manager.nix
 └── hardware-configuration.nix

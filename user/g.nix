@@ -8,11 +8,12 @@
     isNormalUser = true;
      description = "guilherme";
      group = "g";
-     extraGroups = [ "networkmanager" "wheel" ];
+     extraGroups = [ "networkmanager" "wheel" "copyparty"];
      packages = with pkgs; [
      #thunderbird
      unzip
      fastfetch
+     fd
    ];
   };
  };

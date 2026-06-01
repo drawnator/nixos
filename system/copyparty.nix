@@ -17,6 +17,9 @@ in
       i = "0.0.0.0";
       p = 3923; 
       ftp = 3921;
+      z = true;
+      chmod-f = 755;
+      wr-h-aon = "/dev/shm/accessible-on.txt";
     };
     accounts.g.passwordFile = "/etc/nixos/user/g_password";
     volumes = {
@@ -27,6 +30,13 @@ in
           rw = [ "g" ];
         };
       };
+      # "/Nepuvir" = {
+      #   path = "/run/media/g/Nepuvir/";
+      #   access = {
+      #     r = "*";
+      #     rw = [ "g" ];
+      #   };
+      # };
     };
   };
  };
