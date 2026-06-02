@@ -15,6 +15,7 @@
      fastfetch
      fd
      blender
+     libinput-gestures
    ];
   };
  };
