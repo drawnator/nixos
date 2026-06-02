@@ -14,6 +14,7 @@
      unzip
      fastfetch
      fd
+     blender
    ];
   };
  };
