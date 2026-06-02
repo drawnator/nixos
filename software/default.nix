@@ -7,5 +7,6 @@
     ./firefox.nix
     ./git.nix
     ./vscodium.nix
+    ./zen.nix
   ];
 }

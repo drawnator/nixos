@@ -4,9 +4,9 @@
 │   └── g.nix
 ├── software/
 │   ├── zen.nix
+│   ├── default.nix
 │   ├── firefox.nix
 │   ├── filelight.nix
-│   ├── default.nix
 │   ├── vscodium.nix
 │   ├── git.nix
 │   └── docker.nix
