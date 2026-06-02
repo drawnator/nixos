@@ -1,17 +1,7 @@
 ```text
 ├── README.md
-├── sync.sh*
-├── user/
-│   └── g.nix
-├── software/
-│   ├── zen.nix
-│   ├── default.nix
-│   ├── firefox.nix
-│   ├── filelight.nix
-│   ├── vscodium.nix
-│   ├── git.nix
-│   └── docker.nix
 ├── system/
+│   ├── fish.nix
 │   ├── default.nix
 │   ├── cloudflared.nix
 │   ├── copyparty.nix
@@ -34,6 +24,17 @@
 │       ├── default.nix
 │       ├── systemd-boot.nix
 │       └── grub.nix
+├── sync.sh*
+├── user/
+│   └── g.nix
+├── software/
+│   ├── zen.nix
+│   ├── default.nix
+│   ├── firefox.nix
+│   ├── filelight.nix
+│   ├── vscodium.nix
+│   ├── git.nix
+│   └── docker.nix
 ├── _template.nix
 ├── configuration.nix
 ├── home-manager.nix
