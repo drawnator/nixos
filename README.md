@@ -1,5 +1,8 @@
 ```text
 ├── README.md
+├── sync.sh*
+├── user/
+│   └── g.nix
 ├── software/
 │   ├── zen.nix
 │   ├── default.nix
@@ -8,8 +11,6 @@
 │   ├── vscodium.nix
 │   ├── git.nix
 │   └── docker.nix
-├── user/
-│   └── g.nix
 ├── system/
 │   ├── default.nix
 │   ├── cloudflared.nix
@@ -33,7 +34,6 @@
 │       ├── default.nix
 │       ├── systemd-boot.nix
 │       └── grub.nix
-├── sync.sh*
 ├── _template.nix
 ├── configuration.nix
 ├── home-manager.nix

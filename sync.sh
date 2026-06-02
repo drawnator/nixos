@@ -22,3 +22,4 @@ else
     git commit
 fi
 git push
+sudo systemctl restart copyparty
