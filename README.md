@@ -1,7 +1,5 @@
 ```text
 ├── README.md
-├── user/
-│   └── g.nix
 ├── software/
 │   ├── zen.nix
 │   ├── default.nix
@@ -10,6 +8,8 @@
 │   ├── vscodium.nix
 │   ├── git.nix
 │   └── docker.nix
+├── user/
+│   └── g.nix
 ├── system/
 │   ├── default.nix
 │   ├── cloudflared.nix
