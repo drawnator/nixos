@@ -17,6 +17,10 @@
      blender
      libinput-gestures
    ];
+   shell = pkgs.fish;
   };
+  programs.fish = {
+    enable = true;
+    };
  };
 }
