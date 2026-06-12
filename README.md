@@ -1,6 +1,7 @@
 ```text
 ├── README.md
 ├── system/
+│   ├── systemd.nix
 │   ├── fish.nix
 │   ├── default.nix
 │   ├── cloudflared.nix
@@ -19,7 +20,6 @@
 │   ├── localization.nix
 │   ├── direnv.nix
 │   ├── bluetooth.nix
-│   ├── systemd.nix
 │   └── boot/
 │       ├── default.nix
 │       ├── systemd-boot.nix

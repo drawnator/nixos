@@ -3,7 +3,7 @@
 {
  config = {
     systemd.tmpfiles.rules = [
-      "e /home/g/Downloads - - - 7d"
+      "e /home/g/Downloads - - - 1d"
     ];
  };
 }
