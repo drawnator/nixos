@@ -28,11 +28,11 @@
 ├── user/
 │   └── g.nix
 ├── software/
+│   ├── vscodium.nix
 │   ├── zen.nix
 │   ├── default.nix
 │   ├── firefox.nix
 │   ├── filelight.nix
-│   ├── vscodium.nix
 │   ├── git.nix
 │   └── docker.nix
 ├── _template.nix
