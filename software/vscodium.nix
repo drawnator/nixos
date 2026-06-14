@@ -1,9 +1,12 @@
 { lib, config, pkgs, ... }:
 {
- config = {
-     environment.systemPackages = with pkgs; [ vscodium ];
-     # REQUIRED: Enable the Nix compatibility loader for dynamically linked executables
-     programs.nix-ld.enable = true;
+  # REQUIRED: Enable the Nix compatibility loader for dynamically linked executables
+  imports = [
+      (fetchTarball "https://github.com/nix-community/nixos-vscode-server/tarball/master")
+  ];
 
- };
+  config = {
+      environment.systemPackages = with pkgs; [ vscodium ];
+      services.vscode-server.enable = true;
+  };
 }
