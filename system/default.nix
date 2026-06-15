@@ -12,6 +12,7 @@
     ./network.nix
     # ./nvidia.nix #running graphics on gpu is making notebook extremly hot
     ./sound.nix
+    ./ssh.nix
     ./systemd.nix
     ./desktop
     ./boot

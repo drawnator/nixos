@@ -5,6 +5,7 @@
   programs.fish.enable = true;
   users.users.g.shell = pkgs.fish;
   programs.bash = {
+    enable = true;
   #https://nixos.wiki/wiki/Fish
   interactiveShellInit = ''
       if [[ $(${pkgs.procps}/bin/ps --no-header --pid=$PPID --format=comm) != "fish" && -z ''${BASH_EXECUTION_STRING} ]]

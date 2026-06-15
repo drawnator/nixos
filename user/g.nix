@@ -16,6 +16,7 @@
      fd
      blender
      libinput-gestures
+     discord
    ];
   };
  };
