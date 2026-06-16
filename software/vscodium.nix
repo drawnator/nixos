@@ -7,7 +7,10 @@
 
   config = {
       environment.systemPackages = with pkgs; [ vscodium ];
-      services.vscode-server.enable = true;
+      services.vscode-server = {
+        enable = true;
+        installPath = ["$HOME./kiro-server"];
+      };
       environment.pathsToLink = ["/bin"];
       environment.shells = [pkgs.bash];
       system.activationScripts.binbash = ''
