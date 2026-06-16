@@ -6,6 +6,7 @@
     enable = true;
     openFirewall = true;
     settings = {
+      PermitUserEnvironment = true;
       PasswordAuthentication = false;
       KbdInteractiveAuthentication = false;
       PermitRootLogin = "no";
