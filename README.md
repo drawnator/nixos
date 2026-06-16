@@ -1,5 +1,6 @@
 ```text
 ├── README.md
+├── sync.sh*
 ├── system/
 │   ├── fish.nix
 │   ├── ssh.nix
@@ -25,7 +26,6 @@
 │       ├── default.nix
 │       ├── systemd-boot.nix
 │       └── grub.nix
-├── sync.sh*
 ├── user/
 │   └── g.nix
 ├── software/

@@ -23,3 +23,4 @@ else
 fi
 git push
 sudo systemctl restart copyparty
+sudo systemctl --user enable auto-fix-vscode-server.service

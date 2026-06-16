@@ -11,11 +11,7 @@
         enable = true;
         installPath = ["$HOME/.kiro-server"];
       };
-      environment.pathsToLink = ["/bin"];
       environment.shells = [pkgs.bash];
-      system.activationScripts.binbash = ''
-          mkdir -p /usr/bin
-          ln -sf ${pkgs.bash}/bin/bash /usr/bin/bash
-      '';
+      services.envfs.enable = true;
   };
 }
