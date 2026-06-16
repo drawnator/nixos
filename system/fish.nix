@@ -3,7 +3,7 @@
 {
  config = {
   programs.fish.enable = true;
-  users.users.g.shell = pkgs.fish;
+  # users.users.g.shell = pkgs.fish;
   programs.bash = {
     enable = true;
   #https://nixos.wiki/wiki/Fish

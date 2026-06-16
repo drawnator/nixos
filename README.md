@@ -1,8 +1,8 @@
 ```text
 ├── README.md
 ├── system/
-│   ├── ssh.nix
 │   ├── fish.nix
+│   ├── ssh.nix
 │   ├── default.nix
 │   ├── systemd.nix
 │   ├── cloudflared.nix
