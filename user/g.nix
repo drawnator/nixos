@@ -17,6 +17,8 @@
      blender
      libinput-gestures
      discord
+     krita
+     nmap
    ];
   };
  };
