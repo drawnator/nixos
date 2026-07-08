@@ -1,10 +1,11 @@
 ```text
 ├── README.md
-├── sync.sh*
 ├── system/
+│   ├── default.nix
+│   ├── nvidia.nix
+│   ├── gestures.nix
 │   ├── fish.nix
 │   ├── ssh.nix
-│   ├── default.nix
 │   ├── systemd.nix
 │   ├── cloudflared.nix
 │   ├── copyparty.nix
@@ -18,7 +19,6 @@
 │   │       └── xfce.nix
 │   ├── hard_drive.nix
 │   ├── sound.nix
-│   ├── nvidia.nix
 │   ├── localization.nix
 │   ├── direnv.nix
 │   ├── bluetooth.nix
@@ -26,6 +26,7 @@
 │       ├── default.nix
 │       ├── systemd-boot.nix
 │       └── grub.nix
+├── sync.sh*
 ├── user/
 │   └── g.nix
 ├── software/

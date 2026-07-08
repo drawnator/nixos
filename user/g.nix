@@ -15,7 +15,6 @@
      fastfetch
      fd
      blender
-     libinput-gestures
      discord
      krita
      nmap

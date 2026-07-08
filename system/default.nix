@@ -16,5 +16,6 @@
     ./systemd.nix
     ./desktop
     ./boot
+    ./gestures.nix
   ];
 }

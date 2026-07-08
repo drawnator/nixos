@@ -41,10 +41,10 @@
       nvidiaBusId = "PCI:1:0:0";
     };
   };
-  hardware.nvidia-container-toolkit.enable = true;
+  # hardware.nvidia-container-toolkit.enable = true;
   # Prevents: - Option enableNvidia on x86_64 requires 32-bit support libraries
   # Regular Docker
-  virtualisation.docker.daemon.settings.features.cdi = true;
+  # virtualisation.docker.daemon.settings.features.cdi = true;
   # If using Rootless Docker
   # virtualisation.docker.rootless.daemon.settings.features.cdi = true;
   nix.settings = {
