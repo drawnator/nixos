@@ -8,7 +8,7 @@
     isNormalUser = true;
      description = "guilherme";
      group = "g";
-     extraGroups = [ "networkmanager" "wheel" "copyparty"];
+      extraGroups = [ "networkmanager" "wheel" "copyparty" "fuse" "davfs2"];
      packages = with pkgs; [
      #thunderbird
      unzip
@@ -18,6 +18,7 @@
      discord
      krita
      nmap
+     rsync
    ];
   };
  };

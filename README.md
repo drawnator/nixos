@@ -2,6 +2,8 @@
 ├── README.md
 ├── system/
 │   ├── default.nix
+│   ├── rclone-copyparty.nix
+│   ├── webdav-copyparty.nix
 │   ├── nvidia.nix
 │   ├── gestures.nix
 │   ├── fish.nix

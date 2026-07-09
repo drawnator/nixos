@@ -4,6 +4,8 @@
   imports = [
     ./bluetooth.nix
     ./copyparty.nix
+    # ./webdav-copyparty.nix # davfs2 - requires root, slower, needs davfs2 group
+    ./rclone-copyparty.nix    # rclone - faster, no root needed, recommended
     ./cloudflared.nix
     ./hard_drive.nix
     ./localization.nix
