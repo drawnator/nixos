@@ -19,6 +19,7 @@
      krita
      nmap
      rsync
+     godot
    ];
   };
  };
