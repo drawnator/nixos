@@ -8,5 +8,6 @@
     ./git.nix
     ./vscodium.nix
     ./zen.nix
+    ./steam.nix
   ];
 }

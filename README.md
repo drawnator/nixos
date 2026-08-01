@@ -1,8 +1,20 @@
 ```text
 ├── README.md
-├── system/
+├── configuration.nix
+├── software/
 │   ├── default.nix
+│   ├── steam.nix
+│   ├── vscodium.nix
+│   ├── zen.nix
+│   ├── firefox.nix
+│   ├── filelight.nix
+│   ├── git.nix
+│   └── docker.nix
+├── user/
+│   └── g.nix
+├── system/
 │   ├── rclone-copyparty.nix
+│   ├── default.nix
 │   ├── webdav-copyparty.nix
 │   ├── nvidia.nix
 │   ├── gestures.nix
@@ -15,9 +27,9 @@
 │   ├── desktop/
 │   │   ├── default.nix
 │   │   └── xfce/
+│   │       ├── default.nix
 │   │       ├── dracula.nix
 │   │       ├── adwaita.nix
-│   │       ├── default.nix
 │   │       └── xfce.nix
 │   ├── hard_drive.nix
 │   ├── sound.nix
@@ -29,18 +41,7 @@
 │       ├── systemd-boot.nix
 │       └── grub.nix
 ├── sync.sh*
-├── user/
-│   └── g.nix
-├── software/
-│   ├── vscodium.nix
-│   ├── zen.nix
-│   ├── default.nix
-│   ├── firefox.nix
-│   ├── filelight.nix
-│   ├── git.nix
-│   └── docker.nix
 ├── _template.nix
-├── configuration.nix
 ├── home-manager.nix
 └── hardware-configuration.nix
 ```

@@ -8,19 +8,19 @@
     isNormalUser = true;
      description = "guilherme";
      group = "g";
-      extraGroups = [ "networkmanager" "wheel" "copyparty" "fuse" "davfs2"];
+     extraGroups = [ "networkmanager" "wheel" "copyparty" "fuse" "davfs2"];
      packages = with pkgs; [
      #thunderbird
-     unzip
-     fastfetch
-     fd
      blender
      discord
      krita
-     nmap
-     rsync
      godot
    ];
+  };
+  home-manager.users.g = { pkgs, ... }: {
+    home.packages = with pkgs; [
+      steam
+      ];
   };
  };
 }
