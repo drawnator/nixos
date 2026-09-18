@@ -9,5 +9,6 @@
     ./vscodium.nix
     ./zen.nix
     ./steam.nix
+    ./wine.nix
   ];
 }

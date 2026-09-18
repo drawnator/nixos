@@ -1,20 +1,11 @@
 ```text
 ├── README.md
-├── configuration.nix
-├── software/
-│   ├── default.nix
-│   ├── steam.nix
-│   ├── vscodium.nix
-│   ├── zen.nix
-│   ├── firefox.nix
-│   ├── filelight.nix
-│   ├── git.nix
-│   └── docker.nix
 ├── user/
 │   └── g.nix
 ├── system/
-│   ├── rclone-copyparty.nix
+│   ├── tablet.nix
 │   ├── default.nix
+│   ├── rclone-copyparty.nix
 │   ├── webdav-copyparty.nix
 │   ├── nvidia.nix
 │   ├── gestures.nix
@@ -40,8 +31,19 @@
 │       ├── default.nix
 │       ├── systemd-boot.nix
 │       └── grub.nix
+├── software/
+│   ├── default.nix
+│   ├── wine.nix
+│   ├── steam.nix
+│   ├── vscodium.nix
+│   ├── zen.nix
+│   ├── firefox.nix
+│   ├── filelight.nix
+│   ├── git.nix
+│   └── docker.nix
+├── home-manager.nix
+├── configuration.nix
 ├── sync.sh*
 ├── _template.nix
-├── home-manager.nix
 └── hardware-configuration.nix
 ```

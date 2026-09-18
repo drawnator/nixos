@@ -19,5 +19,6 @@
     ./desktop
     ./boot
     # ./gestures.nix
+    ./tablet.nix
   ];
 }
